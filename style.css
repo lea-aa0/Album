@@ -1,0 +1,36 @@
+body{
+    background: lch(78.15% 20.35 7.62 / 0.548);
+    color: rgb(57, 84, 149);
+    
+}
+
+
+h3{
+    background: pink;
+}
+ol{
+background: rgba(245, 245, 245, 0.386);
+}
+td{
+    font-size: 1.4em;
+}
+
+img {
+    margin: 60px;
+    width: 250;
+    height: 250;
+border: 10px double black;
+}
+
+body{
+    background-image: url(MIDAS\ TOUCH.png);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+
+body::before {
+     background-image: url(MIDAS\ TOUCH.png);
+       filter: contrast(50%)
+}
